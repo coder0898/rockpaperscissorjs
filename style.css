@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #FFFFFF;
+}
+
+.container{
+    background-color: #002339;
+    padding: 30px;
+    border-radius: 1rem;
+    box-shadow: 0  2px  0 3px rgba(0, 0, 0,0.1);
+}
+
+.container h1{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.container h1 span{
+    color: #06d86f;
+}
+
+.container h3{
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: #06d86f;
+}
+
+.User_Input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.User_Input div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.User_Input div>button{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    font-size: 3.5rem;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    color: #FFFF01;
+}
+
+.User_Input div>label{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.Computer_Input{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.Score_Board{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    width: 300px;
+    padding: 10px;
+}
+
+.Score_Board div{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.green{
+    color: #06d86f;
+}
+
+.tie{
+    color: #FFFF01;
+}   
+
+.losse{
+    color: red;
+}
